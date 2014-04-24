@@ -14,7 +14,13 @@ Maximum Symmetric Surround Saliency is a method for salient region detection tha
 [![Success Meme Baby](imagedemo/success-meme-baby.jpg)](https://raw.github.com/technopagan/mss-saliency/master/imagedemo/success-meme-baby.jpg)
 Let's look at the famous "Success!" baby photo as a quick demo of our saliency detector.
 
+**Success Meme Baby, saliency mapped**
+[![Success Meme Baby Saliency Mapped](imagedemo/success-meme-baby-salient.jpg)](https://raw.github.com/technopagan/mss-saliency/master/imagedemo/success-meme-baby-salient.jpg)
+This is the native output of MSSS.
 
+**Success Meme Baby, salient two colors**
+[![Success Meme Baby Saliency Mapped 2 Colors](imagedemo/success-meme-baby-salient-2color.jpg)](https://raw.github.com/technopagan/mss-saliency/master/imagedemo/success-meme-baby-salient-2color.jpg)
+Here we used the inbuilt --threshold switch to reduce the saliency map to only 2-color black and white pixels, which makes the salient regions very easy to detect programmatically.
 
 
 

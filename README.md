@@ -5,6 +5,16 @@ Regions of Interest Maximum Symmetric Surround Saliency Algorithm
 
 ```bash
 SaliencyDetector [options] inputfile.jpg outputfile.jpg
+
+-h, --help        display this help and exit
+-q, --quiet       quiet mode
+-v, --verbose     enable verbose mode
+-V, --version     print program version
+
+--normalize       normalize greyscale output
+--threshold       convert saliency map to a two colour image
+--blocks          convert saliency map to series of averaged blocks
+--qblocks         convert saliency map to series of averaged blocks quantized to 4 colours
 ```
 
 ## Introduction

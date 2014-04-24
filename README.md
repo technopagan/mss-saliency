@@ -1,6 +1,12 @@
 Regions of Interest Maximum Symmetric Surround Saliency Algorithm
 ============
 
+## Quick Start Guide
+
+```bash
+SaliencyDetector [options] inputfile.jpg outputfile.jpg
+```
+
 ## Introduction
 
 Detection of visually salient image regions is useful for  applications like object segmentation, adaptive compression and  object recognition. Recently, full-resolution salient maps that  retain well-defined boundaries have attracted attention. In these  maps, boundaries are preserved by retaining substantially more frequency content from the original image than older techniques.  However, if the salient regions comprise more than half the pixels  of the image, or if the background is complex, the background gets  highlighted instead of the salient object.

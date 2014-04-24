@@ -7,6 +7,14 @@ Detection of visually salient image regions is useful for  applications like o
 
 Maximum Symmetric Surround Saliency is a method for salient region detection that retains the  advantages of full resolution saliency maps with well-defined  boundaries while overcoming their shortcomings. It exploits  features of color and luminance, is simple to implement and is  computationally efficient.
 
+## Build Instructions
+
+Currently, only the Debug build runs successfully on OSX and Linux. The Release build currently has issues accepting input images. Therefore, when attempting to build the saliency detector, go to /Debug and run "make all" to generate a "SaliencyDetector" binary which you can put in your local $PATH.
+
+We successfully ran builds on both OSX and Linux, provided that a current version of ImageMagick is installed on your system as we rely on ImageMagick for gobbling up the image binary data and outputting the resulting saliency-map image.
+
+There is an up-to-date precompiled OSX binary of SaliencyDetector available in the /Binary directory within this repository.
+
 ## Examples
 
 **Success Meme Baby**
@@ -28,3 +36,22 @@ Note how the saliency detector has successfully ignored the background as well a
  * [Radhakrishna Achanta](http://ivrg.epfl.ch/people/achanta)
  * [Neil Jedrzejewski](http://www.wunderboy.org/about.php)
  * [Tobias Baldauf](http://who.tobias.is/)
+
+## Licence
+
+This software is published under the BSD licence 3.0
+
+Copyright (c) 2014, Tobias Baldauf
+All rights reserved.
+
+Mail: [kontakt@tobias-baldauf.de](mailto:kontakt@tobias-baldauf.de)
+Web: [who.tobias.is](http://who.tobias.is/)
+Twitter: [@tbaldauf](http://twitter.com/tbaldauf)
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+ * Neither the name of the author nor the names of contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

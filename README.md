@@ -12,9 +12,14 @@ SaliencyDetector [options] inputfile.jpg outputfile.jpg
 -V, --version     print program version
 
 --normalize       normalize greyscale output
+
 --threshold       convert saliency map to a two colour image
+-L<num>           lower threshold (def. 12.5 %) for black cut-off for two colour conversion.
+-U<num>           upper threshold (def. 75%) for white cut-off for two colour conversion
+Note: setting either of the above two implies --threshold
+
 --blocks          convert saliency map to series of averaged blocks
---qblocks         convert saliency map to series of averaged blocks quantized to 4 colours
+--qblocks         convert saliency map to series of averaged blocks quantized to 4 colours.
 ```
 
 ## Introduction
@@ -25,11 +30,11 @@ Maximum Symmetric Surround Saliency is a method for salient region detection tha
 
 ## Build Instructions
 
-Currently, only the Debug build runs successfully on OSX and Linux. The Release build currently has issues accepting input images. Therefore, when attempting to build the saliency detector, go to /Debug and run "make all" to generate a "SaliencyDetector" binary which you can put in your local $PATH.
+Go to /Release (or /Debug if you want all debugging flags built in) and run "make all" to generate the "SaliencyDetector" binary which you can put in your local $PATH.
 
 We successfully ran builds on both OSX and Linux, provided that a current version of ImageMagick is installed on your system as we rely on ImageMagick for gobbling up the image binary data and outputting the resulting saliency-map image.
 
-There is an up-to-date precompiled OSX binary of SaliencyDetector available in the /Binary directory within this repository.
+There are up-to-date precompiled OSX binaries of SaliencyDetector available in the /Binary directory within this repository.
 
 ## Examples
 

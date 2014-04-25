@@ -142,7 +142,7 @@ bool ImageLoader::saveMagickFile(string& fileName, vector<char>& buffer,
 		//dstImage.convolve( 3, kernel );
 
 		// Filter out black darker than 12.5% and boost white >75%
-		dstImage.level(MaxRGB / 8.0f, MaxRGB / 4.0f, 1);
+		dstImage.level((MaxRGB * (opts.threshold_low/100.0f)), (MaxRGB * (opts.threshold_high/100.0f)), 1.0f);
 
 		// Convert to monochrome
 		dstImage.quantizeColorSpace(GRAYColorspace);

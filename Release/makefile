@@ -44,7 +44,7 @@ all: SaliencyDetector
 SaliencyDetector: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++ `Magick++-config --cppflags --cxxflags --ldflags --libs` -o"SaliencyDetector" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ `Magick++-config --cppflags --cxxflags` -o"SaliencyDetector" $(OBJS) $(USER_OBJS) $(LIBS) `Magick++-config --ldflags --libs` 
 	@echo 'Finished building target: $@'
 	@echo ' '
 

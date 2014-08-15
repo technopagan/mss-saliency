@@ -1,378 +1,365 @@
 src/ImageLoader.d: ../src/ImageLoader.cpp \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Include.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/magick-config.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/magick-baseconfig.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/MagickCore.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/method-attribute.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/magick-type.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/accelerate.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/morphology.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/geometry.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/resample.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/cache-view.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/pixel.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/colorspace.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/constitute.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/resize.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/statistic.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/animate.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/annotate.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/draw.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/image.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/color.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/exception.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/semaphore.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/blob.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/stream.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/composite.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/compress.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/effect.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/layer.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/locale_.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/hashmap.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/monitor.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/profile.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/string_.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/quantum.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/timer.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/type.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/artifact.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/attribute.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/cache.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/channel.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/cipher.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/client.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/coder.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/colormap.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/compare.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/configure.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/decorate.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/delegate.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/deprecate.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/quantize.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/registry.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/display.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/distort.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/distribute-cache.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/enhance.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/feature.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/fourier.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/fx.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/gem.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/random_.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/histogram.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/identify.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/image-view.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/list.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/log.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/magic.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/magick.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/matrix.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/memory_.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/module.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/version.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/mime.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/montage.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/option.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/paint.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/pixel-accessor.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/policy.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/prepress.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/property.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/resource_.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/segment.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/shear.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/signature.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/splay-tree.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/token.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/transform.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/threshold.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/utility.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/xml-tree.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/xwindow.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/MagickWand.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/method-attribute.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/animate.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/compare.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/composite.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/conjure.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/convert.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/deprecate.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/drawing-wand.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/pixel-wand.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/magick-wand.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/pixel-iterator.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/display.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/identify.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/import.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/magick-property.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/magick-image.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/mogrify.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/montage.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/stream.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/wand-view.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Image.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Blob.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Color.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Drawable.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Geometry.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Exception.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/TypeMetric.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Pixels.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/STL.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/CoderInfo.h \
-  /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Montage.h \
-  ../src/SaliencyDetector.h ../src/ImageLoader.h \
-  ../src/SymmetricSurroundSaliency.h
+ /usr/include/ImageMagick/Magick++.h \
+ /usr/include/ImageMagick/Magick++/Include.h \
+ /usr/include/ImageMagick/magick/magick-config.h \
+ /usr/include/ImageMagick/magick/MagickCore.h \
+ /usr/include/ImageMagick/magick/method-attribute.h \
+ /usr/include/ImageMagick/magick/magick-type.h \
+ /usr/include/ImageMagick/magick/accelerate.h \
+ /usr/include/ImageMagick/magick/morphology.h \
+ /usr/include/ImageMagick/magick/geometry.h \
+ /usr/include/ImageMagick/magick/animate.h \
+ /usr/include/ImageMagick/magick/annotate.h \
+ /usr/include/ImageMagick/magick/draw.h \
+ /usr/include/ImageMagick/magick/image.h \
+ /usr/include/ImageMagick/magick/color.h \
+ /usr/include/ImageMagick/magick/pixel.h \
+ /usr/include/ImageMagick/magick/colorspace.h \
+ /usr/include/ImageMagick/magick/constitute.h \
+ /usr/include/ImageMagick/magick/exception.h \
+ /usr/include/ImageMagick/magick/semaphore.h \
+ /usr/include/ImageMagick/magick/blob.h \
+ /usr/include/ImageMagick/magick/stream.h \
+ /usr/include/ImageMagick/magick/cache-view.h \
+ /usr/include/ImageMagick/magick/composite.h \
+ /usr/include/ImageMagick/magick/compress.h \
+ /usr/include/ImageMagick/magick/effect.h \
+ /usr/include/ImageMagick/magick/layer.h \
+ /usr/include/ImageMagick/magick/locale_.h \
+ /usr/include/ImageMagick/magick/hashmap.h \
+ /usr/include/ImageMagick/magick/monitor.h \
+ /usr/include/ImageMagick/magick/profile.h \
+ /usr/include/ImageMagick/magick/string_.h \
+ /usr/include/ImageMagick/magick/quantum.h \
+ /usr/include/ImageMagick/magick/resample.h \
+ /usr/include/ImageMagick/magick/resize.h \
+ /usr/include/ImageMagick/magick/timer.h \
+ /usr/include/ImageMagick/magick/type.h \
+ /usr/include/ImageMagick/magick/artifact.h \
+ /usr/include/ImageMagick/magick/attribute.h \
+ /usr/include/ImageMagick/magick/cache.h \
+ /usr/include/ImageMagick/magick/cipher.h \
+ /usr/include/ImageMagick/magick/client.h \
+ /usr/include/ImageMagick/magick/coder.h \
+ /usr/include/ImageMagick/magick/colormap.h \
+ /usr/include/ImageMagick/magick/compare.h \
+ /usr/include/ImageMagick/magick/configure.h \
+ /usr/include/ImageMagick/magick/decorate.h \
+ /usr/include/ImageMagick/magick/delegate.h \
+ /usr/include/ImageMagick/magick/deprecate.h \
+ /usr/include/ImageMagick/magick/quantize.h \
+ /usr/include/ImageMagick/magick/registry.h \
+ /usr/include/ImageMagick/magick/display.h \
+ /usr/include/ImageMagick/magick/distort.h \
+ /usr/include/ImageMagick/magick/enhance.h \
+ /usr/include/ImageMagick/magick/feature.h \
+ /usr/include/ImageMagick/magick/fourier.h \
+ /usr/include/ImageMagick/magick/fx.h \
+ /usr/include/ImageMagick/magick/gem.h \
+ /usr/include/ImageMagick/magick/random_.h \
+ /usr/include/ImageMagick/magick/histogram.h \
+ /usr/include/ImageMagick/magick/identify.h \
+ /usr/include/ImageMagick/magick/image-view.h \
+ /usr/include/ImageMagick/magick/list.h \
+ /usr/include/ImageMagick/magick/log.h \
+ /usr/include/ImageMagick/magick/magic.h \
+ /usr/include/ImageMagick/magick/magick.h \
+ /usr/include/ImageMagick/magick/matrix.h \
+ /usr/include/ImageMagick/magick/memory_.h \
+ /usr/include/ImageMagick/magick/module.h \
+ /usr/include/ImageMagick/magick/version.h \
+ /usr/include/ImageMagick/magick/mime.h \
+ /usr/include/ImageMagick/magick/montage.h \
+ /usr/include/ImageMagick/magick/option.h \
+ /usr/include/ImageMagick/magick/paint.h \
+ /usr/include/ImageMagick/magick/policy.h \
+ /usr/include/ImageMagick/magick/prepress.h \
+ /usr/include/ImageMagick/magick/property.h \
+ /usr/include/ImageMagick/magick/resource_.h \
+ /usr/include/ImageMagick/magick/segment.h \
+ /usr/include/ImageMagick/magick/shear.h \
+ /usr/include/ImageMagick/magick/signature.h \
+ /usr/include/ImageMagick/magick/splay-tree.h \
+ /usr/include/ImageMagick/magick/statistic.h \
+ /usr/include/ImageMagick/magick/token.h \
+ /usr/include/ImageMagick/magick/transform.h \
+ /usr/include/ImageMagick/magick/threshold.h \
+ /usr/include/ImageMagick/magick/utility.h \
+ /usr/include/ImageMagick/magick/xml-tree.h \
+ /usr/include/ImageMagick/magick/xwindow.h \
+ /usr/include/ImageMagick/wand/MagickWand.h \
+ /usr/include/ImageMagick/wand/method-attribute.h \
+ /usr/include/ImageMagick/wand/animate.h \
+ /usr/include/ImageMagick/wand/compare.h \
+ /usr/include/ImageMagick/wand/composite.h \
+ /usr/include/ImageMagick/wand/conjure.h \
+ /usr/include/ImageMagick/wand/convert.h \
+ /usr/include/ImageMagick/wand/deprecate.h \
+ /usr/include/ImageMagick/wand/drawing-wand.h \
+ /usr/include/ImageMagick/wand/pixel-wand.h \
+ /usr/include/ImageMagick/wand/magick-wand.h \
+ /usr/include/ImageMagick/wand/pixel-iterator.h \
+ /usr/include/ImageMagick/wand/display.h \
+ /usr/include/ImageMagick/wand/identify.h \
+ /usr/include/ImageMagick/wand/import.h \
+ /usr/include/ImageMagick/wand/magick-property.h \
+ /usr/include/ImageMagick/wand/magick-image.h \
+ /usr/include/ImageMagick/wand/mogrify.h \
+ /usr/include/ImageMagick/wand/montage.h \
+ /usr/include/ImageMagick/wand/stream.h \
+ /usr/include/ImageMagick/wand/wand-view.h \
+ /usr/include/ImageMagick/Magick++/Image.h \
+ /usr/include/ImageMagick/Magick++/Blob.h \
+ /usr/include/ImageMagick/Magick++/Color.h \
+ /usr/include/ImageMagick/Magick++/Drawable.h \
+ /usr/include/ImageMagick/Magick++/Geometry.h \
+ /usr/include/ImageMagick/Magick++/Exception.h \
+ /usr/include/ImageMagick/Magick++/TypeMetric.h \
+ /usr/include/ImageMagick/Magick++/Pixels.h \
+ /usr/include/ImageMagick/Magick++/STL.h \
+ /usr/include/ImageMagick/Magick++/CoderInfo.h \
+ /usr/include/ImageMagick/Magick++/Montage.h ../src/SaliencyDetector.h \
+ ../src/ImageLoader.h ../src/SymmetricSurroundSaliency.h
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++.h:
+/usr/include/ImageMagick/Magick++.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Include.h:
+/usr/include/ImageMagick/Magick++/Include.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/magick-config.h:
+/usr/include/ImageMagick/magick/magick-config.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/magick-baseconfig.h:
+/usr/include/ImageMagick/magick/MagickCore.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/MagickCore.h:
+/usr/include/ImageMagick/magick/method-attribute.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/method-attribute.h:
+/usr/include/ImageMagick/magick/magick-type.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/magick-type.h:
+/usr/include/ImageMagick/magick/accelerate.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/accelerate.h:
+/usr/include/ImageMagick/magick/morphology.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/morphology.h:
+/usr/include/ImageMagick/magick/geometry.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/geometry.h:
+/usr/include/ImageMagick/magick/animate.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/resample.h:
+/usr/include/ImageMagick/magick/annotate.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/cache-view.h:
+/usr/include/ImageMagick/magick/draw.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/pixel.h:
+/usr/include/ImageMagick/magick/image.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/colorspace.h:
+/usr/include/ImageMagick/magick/color.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/constitute.h:
+/usr/include/ImageMagick/magick/pixel.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/resize.h:
+/usr/include/ImageMagick/magick/colorspace.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/statistic.h:
+/usr/include/ImageMagick/magick/constitute.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/animate.h:
+/usr/include/ImageMagick/magick/exception.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/annotate.h:
+/usr/include/ImageMagick/magick/semaphore.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/draw.h:
+/usr/include/ImageMagick/magick/blob.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/image.h:
+/usr/include/ImageMagick/magick/stream.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/color.h:
+/usr/include/ImageMagick/magick/cache-view.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/exception.h:
+/usr/include/ImageMagick/magick/composite.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/semaphore.h:
+/usr/include/ImageMagick/magick/compress.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/blob.h:
+/usr/include/ImageMagick/magick/effect.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/stream.h:
+/usr/include/ImageMagick/magick/layer.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/composite.h:
+/usr/include/ImageMagick/magick/locale_.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/compress.h:
+/usr/include/ImageMagick/magick/hashmap.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/effect.h:
+/usr/include/ImageMagick/magick/monitor.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/layer.h:
+/usr/include/ImageMagick/magick/profile.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/locale_.h:
+/usr/include/ImageMagick/magick/string_.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/hashmap.h:
+/usr/include/ImageMagick/magick/quantum.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/monitor.h:
+/usr/include/ImageMagick/magick/resample.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/profile.h:
+/usr/include/ImageMagick/magick/resize.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/string_.h:
+/usr/include/ImageMagick/magick/timer.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/quantum.h:
+/usr/include/ImageMagick/magick/type.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/timer.h:
+/usr/include/ImageMagick/magick/artifact.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/type.h:
+/usr/include/ImageMagick/magick/attribute.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/artifact.h:
+/usr/include/ImageMagick/magick/cache.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/attribute.h:
+/usr/include/ImageMagick/magick/cipher.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/cache.h:
+/usr/include/ImageMagick/magick/client.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/channel.h:
+/usr/include/ImageMagick/magick/coder.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/cipher.h:
+/usr/include/ImageMagick/magick/colormap.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/client.h:
+/usr/include/ImageMagick/magick/compare.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/coder.h:
+/usr/include/ImageMagick/magick/configure.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/colormap.h:
+/usr/include/ImageMagick/magick/decorate.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/compare.h:
+/usr/include/ImageMagick/magick/delegate.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/configure.h:
+/usr/include/ImageMagick/magick/deprecate.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/decorate.h:
+/usr/include/ImageMagick/magick/quantize.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/delegate.h:
+/usr/include/ImageMagick/magick/registry.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/deprecate.h:
+/usr/include/ImageMagick/magick/display.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/quantize.h:
+/usr/include/ImageMagick/magick/distort.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/registry.h:
+/usr/include/ImageMagick/magick/enhance.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/display.h:
+/usr/include/ImageMagick/magick/feature.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/distort.h:
+/usr/include/ImageMagick/magick/fourier.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/distribute-cache.h:
+/usr/include/ImageMagick/magick/fx.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/enhance.h:
+/usr/include/ImageMagick/magick/gem.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/feature.h:
+/usr/include/ImageMagick/magick/random_.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/fourier.h:
+/usr/include/ImageMagick/magick/histogram.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/fx.h:
+/usr/include/ImageMagick/magick/identify.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/gem.h:
+/usr/include/ImageMagick/magick/image-view.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/random_.h:
+/usr/include/ImageMagick/magick/list.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/histogram.h:
+/usr/include/ImageMagick/magick/log.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/identify.h:
+/usr/include/ImageMagick/magick/magic.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/image-view.h:
+/usr/include/ImageMagick/magick/magick.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/list.h:
+/usr/include/ImageMagick/magick/matrix.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/log.h:
+/usr/include/ImageMagick/magick/memory_.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/magic.h:
+/usr/include/ImageMagick/magick/module.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/magick.h:
+/usr/include/ImageMagick/magick/version.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/matrix.h:
+/usr/include/ImageMagick/magick/mime.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/memory_.h:
+/usr/include/ImageMagick/magick/montage.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/module.h:
+/usr/include/ImageMagick/magick/option.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/version.h:
+/usr/include/ImageMagick/magick/paint.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/mime.h:
+/usr/include/ImageMagick/magick/policy.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/montage.h:
+/usr/include/ImageMagick/magick/prepress.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/option.h:
+/usr/include/ImageMagick/magick/property.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/paint.h:
+/usr/include/ImageMagick/magick/resource_.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/pixel-accessor.h:
+/usr/include/ImageMagick/magick/segment.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/policy.h:
+/usr/include/ImageMagick/magick/shear.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/prepress.h:
+/usr/include/ImageMagick/magick/signature.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/property.h:
+/usr/include/ImageMagick/magick/splay-tree.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/resource_.h:
+/usr/include/ImageMagick/magick/statistic.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/segment.h:
+/usr/include/ImageMagick/magick/token.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/shear.h:
+/usr/include/ImageMagick/magick/transform.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/signature.h:
+/usr/include/ImageMagick/magick/threshold.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/splay-tree.h:
+/usr/include/ImageMagick/magick/utility.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/token.h:
+/usr/include/ImageMagick/magick/xml-tree.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/transform.h:
+/usr/include/ImageMagick/magick/xwindow.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/threshold.h:
+/usr/include/ImageMagick/wand/MagickWand.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/utility.h:
+/usr/include/ImageMagick/wand/method-attribute.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/xml-tree.h:
+/usr/include/ImageMagick/wand/animate.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/xwindow.h:
+/usr/include/ImageMagick/wand/compare.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/MagickWand.h:
+/usr/include/ImageMagick/wand/composite.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/method-attribute.h:
+/usr/include/ImageMagick/wand/conjure.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/animate.h:
+/usr/include/ImageMagick/wand/convert.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/compare.h:
+/usr/include/ImageMagick/wand/deprecate.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/composite.h:
+/usr/include/ImageMagick/wand/drawing-wand.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/conjure.h:
+/usr/include/ImageMagick/wand/pixel-wand.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/convert.h:
+/usr/include/ImageMagick/wand/magick-wand.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/deprecate.h:
+/usr/include/ImageMagick/wand/pixel-iterator.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/drawing-wand.h:
+/usr/include/ImageMagick/wand/display.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/pixel-wand.h:
+/usr/include/ImageMagick/wand/identify.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/magick-wand.h:
+/usr/include/ImageMagick/wand/import.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/pixel-iterator.h:
+/usr/include/ImageMagick/wand/magick-property.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/display.h:
+/usr/include/ImageMagick/wand/magick-image.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/identify.h:
+/usr/include/ImageMagick/wand/mogrify.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/import.h:
+/usr/include/ImageMagick/wand/montage.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/magick-property.h:
+/usr/include/ImageMagick/wand/stream.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/magick-image.h:
+/usr/include/ImageMagick/wand/wand-view.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/mogrify.h:
+/usr/include/ImageMagick/Magick++/Image.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/montage.h:
+/usr/include/ImageMagick/Magick++/Blob.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/stream.h:
+/usr/include/ImageMagick/Magick++/Color.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/wand/wand-view.h:
+/usr/include/ImageMagick/Magick++/Drawable.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Image.h:
+/usr/include/ImageMagick/Magick++/Geometry.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Blob.h:
+/usr/include/ImageMagick/Magick++/Exception.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Color.h:
+/usr/include/ImageMagick/Magick++/TypeMetric.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Drawable.h:
+/usr/include/ImageMagick/Magick++/Pixels.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Geometry.h:
+/usr/include/ImageMagick/Magick++/STL.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Exception.h:
+/usr/include/ImageMagick/Magick++/CoderInfo.h:
 
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/TypeMetric.h:
-
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Pixels.h:
-
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/STL.h:
-
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/CoderInfo.h:
-
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/Magick++/Montage.h:
+/usr/include/ImageMagick/Magick++/Montage.h:
 
 ../src/SaliencyDetector.h:
 

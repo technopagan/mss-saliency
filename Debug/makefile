@@ -35,7 +35,7 @@ endif
 
 -include ../makefile.defs
 
-# Add inputs and outputs from these tool invocations to the build variables 
+# Add inputs and outputs from these tool invocations to the build variables
 
 # All Target
 all: SaliencyDetector
@@ -44,7 +44,7 @@ all: SaliencyDetector
 SaliencyDetector: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++ `Magick++-config --cppflags --cxxflags --ldflags --libs` -o"SaliencyDetector" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ `Magick++-config --cppflags --cxxflags` -o"SaliencyDetector" $(OBJS) $(USER_OBJS) $(LIBS) `Magick++-config --ldflags --libs`
 	@echo 'Finished building target: $@'
 	@echo ' '
 
